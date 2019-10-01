@@ -1,0 +1,10 @@
+$('a[rel*=external]').click(function() {
+	window.open(this.href);
+	return false;
+});
+
+function toggle(className, obj) {
+    var $input = $(obj);
+    if ($input.prop('checked')) $(className).hide();
+    else $(className).show();
+}
