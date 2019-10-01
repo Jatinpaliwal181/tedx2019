@@ -380,9 +380,9 @@ button.fancy a {
 }
 
 button.fancy .top-key {
-    height: 2px;
+    height: 2.5px;
     width: 1.5625rem;
-    top: -2px;
+    top: -1.7px;
     left: 0.625rem;
     position: absolute;
     background: #2a2926;
@@ -391,10 +391,10 @@ button.fancy .top-key {
 }
 
 button.fancy .bottom-key-1 {
-    height: 2px;
+    height: 4px;
     width: 1.5625rem;
     right: 1.875rem;
-    bottom: -2px;
+    bottom: -2.5px;
     position: absolute;
     background: #2a2926;
     -webkit-transition: width 0.5s ease-out, right 0.3s ease-out;
@@ -402,10 +402,10 @@ button.fancy .bottom-key-1 {
 }
 
 button.fancy .bottom-key-2 {
-    height: 2px;
+    height: 4px;
     width: 0.625rem;
     right: 0.625rem;
-    bottom: -2px;
+    bottom: -2.5px;
     position: absolute;
     background: #2a2926;
     -webkit-transition: width 0.5s ease-out, right 0.3s ease-out;
@@ -1317,9 +1317,9 @@ nav.top-bar-container .links li span:after {
     position: absolute;
     width: 0%;
     height: 2px;
-    top: 50%;
+    top: 100%;
     margin-top: -0.5px;
-    background: #000
+    background: #fff;
 }
 
 nav.top-bar-container .links li span:before {
@@ -1328,13 +1328,13 @@ nav.top-bar-container .links li span:before {
 
 nav.top-bar-container .links li span:after {
     right: 2.5px;
-    background: #000;
+    background: #fff;
     -webkit-transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
     transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1)
 }
 
 nav.top-bar-container .links li span:hover:before {
-    background: #000;
+    background: #fff;
     width: 100%;
     -webkit-transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
     transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1)
@@ -3533,7 +3533,7 @@ footer .copyright p {
     top: 0;
     left: 0;
     width: 100%;
-    height: 530%;
+    height: 580%;
     z-index: 0
 }
 
@@ -3544,6 +3544,19 @@ footer .copyright p {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     z-index: -1
+}
+
+.frame_center {
+    align: center;
+    padding-left: 9%
+}
+
+.heading2 {
+    text-align: center;
+    font-size: 3.375em;
+    line-height: 1.33333em;
+    font-weight: 800;
+    color: white;
 }
 
 .particle,
