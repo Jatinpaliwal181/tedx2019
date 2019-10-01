@@ -380,9 +380,9 @@ button.fancy a {
 }
 
 button.fancy .top-key {
-    height: 2.5px;
+    height: 4px;
     width: 1.5625rem;
-    top: -1.7px;
+    top: -3px;
     left: 0.625rem;
     position: absolute;
     background: #2a2926;
